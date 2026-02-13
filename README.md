@@ -14,7 +14,7 @@ El sistema transforma señales ECG 1D en **escalogramas 2D** mediante la Transfo
 * **Dataset:** Entrenamiento con más de 10.000 registros del estudio de la Chapman University (Nature Sci Rep).
 
 ## 📂 Estructura del repositorio
-* **Notebooks (.ipynb):** Scripts de preprocesamiento, arquitecturas (Simple/Compleja) y entrenamiento.
+* **Notebooks (.ipynb):** Scripts de preprocesamiento, arquitecturas (simple/compleja) y entrenamiento.
 * **evaluación multicanal votación:** Carpeta con la lógica de decisión final.
 * **modelos:** Carpeta destinada a los pesos y estructuras de red.
 * **tablas resultados:** Documentación de las métricas obtenidas.
