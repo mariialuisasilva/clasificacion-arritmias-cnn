@@ -14,11 +14,11 @@ El sistema transforma señales ECG 1D en **escalogramas 2D** mediante la Transfo
 * **Dataset:** Entrenamiento con más de 10.000 registros del estudio de la Chapman University (Nature Sci Rep).
 
 ## 📂 Estructura del repositorio
-* ***/code***: Scripts de preprocesamiento, entrenamiento y evaluación.
-
-* ***/evaluación multicanal votación***: Implementación de la lógica de decisión multicanal.
-
-* ***Memoria.pdf***: Documentación técnica completa, metodología y estado del arte.
+* **Notebooks (.ipynb):** Scripts de preprocesamiento, arquitecturas (Simple/Compleja) y entrenamiento.
+* **evaluación multicanal votación:** Carpeta con la lógica de decisión final.
+* **modelos:** Carpeta destinada a los pesos y estructuras de red.
+* **tablas resultados:** Documentación de las métricas obtenidas.
+* **Memoria.pdf:** Documentación técnica completa del TFG.
 
 ## 🛠️ Tecnologías utilizadas
 * **Lenguaje:** Python 3.10
