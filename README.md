@@ -16,7 +16,7 @@ El sistema transforma señales ECG 1D en **escalogramas 2D** mediante la Transfo
 ## 📂 Estructura del repositorio
 * ***/code***: Scripts de preprocesamiento, entrenamiento y evaluación.
 
-* ***/evaluacion_multicanal_votacion***: Implementación de la lógica de decisión multicanal.
+* ***/evaluación multicanal votación***: Implementación de la lógica de decisión multicanal.
 
 * ***Memoria.pdf***: Documentación técnica completa, metodología y estado del arte.
 
