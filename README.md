@@ -11,7 +11,10 @@ El sistema transforma señales ECG 1D en **escalogramas 2D** mediante la Transfo
 * **Dataset:** Entrenamiento con más de 10.000 registros del estudio de la Chapman University (Nature Sci Rep).
 
 ## 📂 Estructura del repositorio
-* **Notebooks principales:** Scripts de entrenamiento y experimentación con arquitecturas Inception-v3 (con y sin aumento de datos).
+* **Modelos y experimentación:** Notebooks (.ipynb) que incluyen las diferentes pruebas realizadas:
+  - Arquitecturas **simple** vs. **compleja**.
+  - Entrenamiento **con y sin aumento de datos (AD)**.
+  - Modelos específicos por derivación (Lead II, Lead III, V1).
 * **📁 evaluación multicanal votación:** Contiene los archivos de predicciones por derivación (*.npy*) y el script *utils.py* para la lógica de votación final.
 * **📁 modelos:** Carpeta destinada a guardar los pesos del modelo.
 * **📁 tablas resultados:** Almacena los archivos Excel y resultados de las métricas.
