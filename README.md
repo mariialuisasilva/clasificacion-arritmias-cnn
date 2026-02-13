@@ -6,11 +6,8 @@ El sistema transforma señales ECG 1D en **escalogramas 2D** mediante la Transfo
 
 ### 🚀 Logros principales:
 * **Precisión (Accuracy): 95.67%** utilizando una estrategia de votación multicanal.
-
 * **Arquitectura:** Fine-tuning sobre Inception-v3 con capas densas personalizadas.
-
 * **Procesamiento:** Uso de Wavelet *db4* para la generación de imágenes espectrales.
-
 * **Dataset:** Entrenamiento con más de 10.000 registros del estudio de la Chapman University (Nature Sci Rep).
 
 ## 📂 Estructura del repositorio
@@ -22,5 +19,4 @@ El sistema transforma señales ECG 1D en **escalogramas 2D** mediante la Transfo
 
 ## 🛠️ Tecnologías utilizadas
 * **Lenguaje:** Python 3.10
-
 * **Librerías:** TensorFlow, Keras, PyWavelets, Scikit-learn, Pandas, NumPy.
