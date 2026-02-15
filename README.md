@@ -5,10 +5,10 @@ Este repositorio contiene el desarrollo de mi **Trabajo Fin de Grado (UHU)**, ce
 El sistema transforma señales ECG 1D en **escalogramas 2D** mediante la Transformada Wavelet Continua (CWT), permitiendo que una red neuronal convolucional (**Inception-v3**) extraiga patrones complejos de tiempo-frecuencia.
 
 ### 🚀 Logros principales:
-* **Precisión (Accuracy): 95,67%** utilizando una estrategia de votación multicanal.
-* **Arquitectura:** Fine-tuning sobre Inception-v3 con capas densas personalizadas.
-* **Procesamiento:** Uso de Wavelet *db4* para la generación de imágenes espectrales.
-* **Dataset:** Entrenamiento con más de 10.000 registros del estudio de la Chapman University (Nature Sci Rep).
+* **Alta precisión en clasificación:** Se alcanzó un **95,67% de accuracy** en el análisis de derivaciones individuales, demostrando la eficacia de la arquitectura Inception-v3 para este tipo de señales.
+* **Sistema de decisión robusto:** Implementación de un algoritmo de **votación multicanal** que consolida las predicciones de diferentes leads para obtener un diagnóstico global con un **92,81% de precisión**.
+* **Aprovechamiento de Deep Learning y CWT:** Uso avanzado de imágenes obtenidas mediante la **Transformada Wavelet Continua (CWT)**, aplicando técnicas de visión por computador para la detección automática de arritmias.
+* **Optimización y experimentación:** Comparativa detallada entre arquitecturas simples y complejas, incluyendo pruebas con y sin aumento de datos (Data Augmentation) para mejorar la generalización del modelo.
 
 ## 📂 Estructura del repositorio
 * **Modelos y experimentación:** Notebooks (.ipynb) que incluyen las diferentes pruebas realizadas:
