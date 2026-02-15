@@ -23,3 +23,8 @@ El sistema transforma señales ECG 1D en **escalogramas 2D** mediante la Transfo
 ## 🛠️ Tecnologías utilizadas
 * **Lenguaje:** Python 3.10
 * **Librerías:** TensorFlow, Keras, PyWavelets, Scikit-learn, Pandas, NumPy.
+
+## 📊 Resultados Obtenidos
+El proyecto evalúa el rendimiento tanto en canales individuales como en el sistema integrado:
+* **Modelo monocanal (Best Case):** **95,67% de precisión** utilizando la arquitectura Inception-v3 con la Transformada Wavelet Continua.
+* **Sistema de votación multicanal:** **92,81% de precisión**, integrando las predicciones de todas las derivaciones para un diagnóstico global más sólido.
